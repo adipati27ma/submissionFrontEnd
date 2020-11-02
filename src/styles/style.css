@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(48, 48, 201), lightblue);
+}
+
+.jumbotron {
+    background-image: linear-gradient(to top, rgb(184, 23, 23), rgb(255, 34, 34));
+}
+
+.jumbotron h1,
+.jumbotron p {
+    color: aliceblue;
+    text-align: center;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    font-weight: bold;
+}
+
+header a {
+    white-space: unset;
+    color: #87ceeb;
+}
+
+header ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -50px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+header i.fa {
+    color: white;
+    font-size: 20px;
+}
+
+header i.fa:hover {
+    color: rgb(255, 183, 183);
+}
+
+main {
+    min-height: 325px;
+}
+
+movie-list div.col-md.my-3 {
+    max-width: 350px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+movie-card img {
+    transition: .5s;
+}
+
+movie-card img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: rgb(179, 51, 51);
+    background-image: linear-gradient(to top, rgb(184, 23, 23), rgb(228, 28, 28));
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+footer a {
+    color: rgb(255, 117, 117);
+}
+
+footer a:hover {
+    color: rgb(196, 87, 87);
+    text-decoration: underline;
+}
